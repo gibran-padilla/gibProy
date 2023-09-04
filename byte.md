@@ -26,7 +26,7 @@ The function first argument can take a string or digit  but a symbol will throw 
 ```lua
 print(string.byte('a')) -- Prints: 97
 print(string.byte('9')) -- Prints: 57
-print(string.byte(9)) -- Prints: 57
+print(string.byte(9))   -- Prints: 57
 print(string.byte(' ')) -- Prints: 32
 print(string.byte(';')) -- Throws error
 ```
